@@ -21,7 +21,7 @@ public class PlayerCollider : MonoBehaviour {
         if (other.tag == "items") {
             _camera.color = cores[0];
 
-            _text.text = "Player 1 ganhou!";
+            _text.text = this.name + " ganhou!";
             gameover.SetActive(true);
             Time.timeScale = 0;
         }
