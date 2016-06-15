@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class Countdown : MonoBehaviour {
 
-    public float total = 20f;
+    public float total = 25f;
     public Text texto;
     public Text _text;
     public GameObject gameover;

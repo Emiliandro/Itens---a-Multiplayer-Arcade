@@ -17,8 +17,8 @@ public class MainMenuS : MonoBehaviour {
         DH = Input.GetAxis("DirecionalH");
         if (count == 0)
 		{
-			items[0].transform.localScale = new Vector3(3f, 3f, 3f);
-			items[1].transform.localScale = new Vector3(1.4f, 1.4f, 1f);
+			items[0].transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
+			items[1].transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
 			if (DH == 1)
 			{
 				count = 1; 
@@ -29,8 +29,8 @@ public class MainMenuS : MonoBehaviour {
 			}
 		}
 		else {
-			items[1].transform.localScale = new Vector3(3f, 3f, 3f);
-			items[0].transform.localScale = new Vector3(1.4f, 1.4f, 1f);
+			items[1].transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
+			items[0].transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
 
 			if (DH == -1){
 				count = 0;

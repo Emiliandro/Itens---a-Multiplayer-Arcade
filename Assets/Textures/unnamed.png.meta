@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: 40b7067791a92f4469163e6f3ff35196
+timeCreated: 1465975050
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: unnamed_0
+    21300002: unnamed_1
+    21300004: unnamed_2
+    21300006: unnamed_3
+    21300008: unnamed_4
+    21300010: unnamed_5
+    21300012: unnamed_6
+    21300014: unnamed_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 375
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: unnamed_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 36}
+        - {x: -32, y: 35}
+        - {x: -32, y: -35}
+        - {x: -26, y: -36}
+        - {x: 25, y: -36}
+        - {x: 32, y: -23}
+        - {x: 32, y: 25}
+        - {x: 26, y: 36}
+    - name: unnamed_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 8
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 36}
+        - {x: -32, y: 31}
+        - {x: -32, y: -27}
+        - {x: -13, y: -36}
+        - {x: 26, y: -36}
+        - {x: 32, y: -22}
+        - {x: 32, y: 32}
+        - {x: 31, y: 36}
+    - name: unnamed_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 8
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 36}
+        - {x: -27, y: 36}
+        - {x: -32, y: 34}
+        - {x: -32, y: -15}
+        - {x: -25, y: -36}
+        - {x: 18, y: -36}
+        - {x: 22, y: -28}
+        - {x: 22, y: -20}
+        - {x: 32, y: -10}
+    - name: unnamed_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 8
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 36}
+        - {x: -32, y: 24}
+        - {x: -32, y: -9}
+        - {x: -20, y: -36}
+        - {x: 10, y: -36}
+        - {x: 27, y: -30}
+        - {x: 32, y: -6}
+        - {x: 32, y: 28}
+        - {x: 21, y: 36}
+    - name: unnamed_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 8
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 36}
+        - {x: -32, y: -36}
+        - {x: 28, y: -36}
+        - {x: 32, y: -24}
+        - {x: 32, y: 36}
+    - name: unnamed_5
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 8
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 36}
+        - {x: -32, y: 33}
+        - {x: -32, y: -36}
+        - {x: 24, y: -36}
+        - {x: 32, y: -34}
+        - {x: 32, y: 30}
+        - {x: 30, y: 36}
+    - name: unnamed_6
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 8
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 36}
+        - {x: -32, y: -23}
+        - {x: -30, y: -27}
+        - {x: -21, y: -36}
+        - {x: 27, y: -36}
+        - {x: 32, y: -29}
+        - {x: 32, y: 33}
+        - {x: 27, y: 36}
+    - name: unnamed_7
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 8
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 36}
+        - {x: -32, y: 29}
+        - {x: -32, y: -18}
+        - {x: -15, y: -36}
+        - {x: 28, y: -36}
+        - {x: 32, y: -27}
+        - {x: 32, y: 16}
+        - {x: 27, y: 36}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
