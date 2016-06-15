@@ -21,7 +21,7 @@ public class PanelControllers : MonoBehaviour
     void Update()
     {
         if (scenes[0].activeSelf) { 
-        if (Input.GetKeyDown(KeyCode.Joystick1Button7) || Input.GetKeyDown(KeyCode.Joystick2Button7) || Input.GetKeyDown(KeyCode.LeftControl))
+        if (Input.GetKeyDown(KeyCode.Joystick1Button7) || Input.GetKeyDown(KeyCode.LeftControl))
             {
                 Time.timeScale = 1;
                 scenes[0].SetActive(false);
@@ -30,9 +30,12 @@ public class PanelControllers : MonoBehaviour
         }
 
         else if (scenes[2].activeSelf) {
-            if (Input.GetKeyDown(KeyCode.Joystick1Button7) || Input.GetKeyDown(KeyCode.Joystick2Button7) || Input.GetKeyDown(KeyCode.LeftControl)) {
-                SceneManager.LoadScene("MainMenu");
+            if (Input.GetKeyDown(KeyCode.Joystick1Button1) || Input.GetKeyDown(KeyCode.Joystick2Button1) || Input.GetKeyDown(KeyCode.LeftControl)) {
+                SceneManager.LoadScene(Application.loadedLevel);
 
+            }else if (Input.GetKeyDown(KeyCode.Joystick1Button7) || Input.GetKeyDown(KeyCode.Joystick2Button7) || Input.GetKeyDown(KeyCode.End))
+            {
+                SceneManager.LoadScene("MainMenu");
             }
         }
     }

@@ -36,7 +36,7 @@ public class FollowTowards : MonoBehaviour
 
     void OnTrigger2DEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Player" || other.tag == "Player2")
         {
             StartCoroutine(SpeedDecreaser());
         }
@@ -44,7 +44,7 @@ public class FollowTowards : MonoBehaviour
 
     void OnTrigger2DExit(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Player" || other.tag == "Player2")
         {
             speed = 0.02f;
         }

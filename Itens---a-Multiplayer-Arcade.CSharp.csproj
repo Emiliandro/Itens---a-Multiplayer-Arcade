@@ -58,29 +58,8 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -92,12 +71,19 @@
     <Compile Include="Assets\Scripts\Gameplay\SetBackgroundSprit.cs" />
     <Compile Include="Assets\Scripts\Gameplay\TotensSelect.cs" />
     <Compile Include="Assets\Scripts\GoToGame.cs" />
+    <Compile Include="Assets\Scripts\Input\ButtonActions.cs" />
+    <Compile Include="Assets\Scripts\Input\IControllerInputListener.cs" />
+    <Compile Include="Assets\Scripts\Input\InputController.cs" />
+    <Compile Include="Assets\Scripts\Input\InputType.cs" />
+    <Compile Include="Assets\Scripts\Input\PlayerInput.cs" />
+    <Compile Include="Assets\Scripts\Input\ThirdPersonController.cs" />
     <Compile Include="Assets\Scripts\Misc\GoToScene.cs" />
     <Compile Include="Assets\Scripts\Misc\MainMenuS.cs" />
     <Compile Include="Assets\Scripts\Misc\SkipScene.cs" />
     <Compile Include="Assets\Scripts\Player\Move2D.cs" />
     <Compile Include="Assets\Scripts\Player\Movement2D.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCollider.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerCollider1.cs" />
     <Compile Include="Assets\Scripts\SwipeMobileDetector.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />

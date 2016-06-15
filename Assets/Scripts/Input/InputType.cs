@@ -1,0 +1,1 @@
+﻿public enum InputType {Keyboard, joystick};
