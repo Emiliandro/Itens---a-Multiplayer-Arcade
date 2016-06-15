@@ -4,6 +4,7 @@ using System.Collections;
 public class FollowTowards : MonoBehaviour
 {
     private float speed = 0.02f;
+    public GameObject[] Players;
     public GameObject Player;
     public Rigidbody2D Source;
 
@@ -48,4 +49,11 @@ public class FollowTowards : MonoBehaviour
             speed = 0.02f;
         }
     }
+
+    void Start()
+    {
+        Player = Players[Random.Range(0, Players.Length)];
+
+    }
+
 }

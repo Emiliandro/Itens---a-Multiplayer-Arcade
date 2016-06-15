@@ -9,6 +9,9 @@ public class Move2D : MonoBehaviour {
     private float movey2 = 0f;
     public Rigidbody2D source;
     public Rigidbody2D source2;
+    public Animator anim1;
+    public Animator anim2;
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -18,5 +21,11 @@ public class Move2D : MonoBehaviour {
         movey2 = Input.GetAxis("JoystickV2");
         source.velocity = new Vector2(movex * Speed, movey * Speed);
         source2.velocity = new Vector2(movex2 * Speed, movey2 * Speed);
+
+        anim1.SetFloat("Horizontal", movex);
+        anim2.SetFloat("Horizontal", movex2);
+        anim1.SetFloat("Vertical", movey);
+        anim2.SetFloat("Vertical", movey2);
+
     }
 }
