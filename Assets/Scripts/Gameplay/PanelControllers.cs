@@ -31,7 +31,7 @@ public class PanelControllers : MonoBehaviour
 
         else if (scenes[2].activeSelf) {
             if (Input.GetKeyDown(KeyCode.Joystick1Button7) || Input.GetKeyDown(KeyCode.Joystick2Button7) || Input.GetKeyDown(KeyCode.LeftControl)) {
-                SceneManager.LoadScene(Application.loadedLevel);
+                SceneManager.LoadScene("MainMenu");
 
             }
         }
