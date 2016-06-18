@@ -27,7 +27,10 @@ public class FollowTowards : MonoBehaviour
 	void FixedUpdate ()
     {
         InvokeRepeating("callFollow", 1f, 1f);
-	}
+
+        if (Player.activeSelf == false) Player = Players[Random.Range(0, Players.Length)];
+
+    }
 
     void callFollow()
     {

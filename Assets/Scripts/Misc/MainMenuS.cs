@@ -14,7 +14,7 @@ public class MainMenuS : MonoBehaviour {
 	}
 
 	void Update () {
-        DH = Input.GetAxis("DirecionalH");
+        DH = Input.GetAxis("Vertical");
         if (count == 0)
 		{
 			items[0].transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
@@ -35,7 +35,7 @@ public class MainMenuS : MonoBehaviour {
 			if (DH == -1){
 				count = 0;
 			}
-			if (Input.GetKey(KeyCode.Joystick1Button0))
+			if (Input.GetKey(KeyCode.Joystick1Button0) || Input.GetKey(KeyCode.Space))
             {
 				Application.LoadLevel(cenas[1]);
 			}

@@ -58,12 +58,6 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -102,10 +96,8 @@
     <Compile Include="Assets\Scripts\Misc\MainMenuS.cs" />
     <Compile Include="Assets\Scripts\Misc\SkipScene.cs" />
     <Compile Include="Assets\Scripts\Player\Move2D.cs" />
-    <Compile Include="Assets\Scripts\Player\Movement2D.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCollider.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCollider1.cs" />
-    <Compile Include="Assets\Scripts\SwipeMobileDetector.cs" />
     <Compile Include="Assets\Textures\Intro\ForTheCutscene.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
